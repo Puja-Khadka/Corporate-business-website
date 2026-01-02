@@ -12,3 +12,11 @@
 .animate-slide-right {
   animation: slideRight 3s linear infinite;
 }
+@keyframes phoneScale {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+}

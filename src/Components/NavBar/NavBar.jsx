@@ -7,8 +7,8 @@ function NavBar() {
 
   return (
     <>
-    <nav className='bg-blue-600 py-3'>
-     <div className='flex items-center gap-10 px-20'>
+    <nav className='bg-blue-600 py-3 '>
+     <div className='container mx-auto flex items-center gap-10 px-20'>
         <div className='text-white'>
             <h1 className='text-4xl font-bold'>High<span className='text-green-900'>Tech</span></h1>
         </div>

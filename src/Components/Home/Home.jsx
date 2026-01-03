@@ -61,7 +61,22 @@ function Home() {
              </div>
         </div>
       </div>
-     
+      
+      <section className='my-30'>
+        <div className=' container mx-auto grid grid-cols-2 gap-2 px-20 '>
+          <div className='relative' data-aos="zoom-in">
+            <img className='w-90   rounded-2xl shadow-lg' src="https://media.istockphoto.com/id/541114144/photo/bound-by-business.jpg?s=612x612&w=0&k=20&c=sRpFWa216olf8SZkAK3MTwyNAfHNt4G5eGZPHNfOvvQ=" alt="" />
+            <img className='w-90  rounded-2xl shadow-lg absolute top-30 left-30' src="https://media.istockphoto.com/id/2103894533/photo/business-people-in-the-office.jpg?s=612x612&w=0&k=20&c=DrnqkuBHgk3_YicnJJwm45HopK626ZqWAmlgUpXaBRc=" alt="" />
+          </div>
+          <div data-aos="zoom-in-up">
+            <h2 className='text-blue-700 font-bold '>About Us</h2>
+            <h1 className='text-5xl font-bold'>About HighTech Agency and Its Innovative IT solution</h1>
+            <p className='py-4'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam nobis harum illo? Architecto nobis ea aut fugiat vitae expedita adipisci unde facilis totam. Quasi pariatur molestias temporibus fugit voluptatum obcaecati!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptatum alias molestias fuga facere ab doloribus hic nihil, optio culpa ipsam reiciendis adipisci, blanditiis suscipit.</p>
+            <button className='bg-blue-700 text-white py-3 px-6 my-3 rounded-full'>More Details</button>
+          </div>
+        </div>
+      </section> 
       </>
   )
 }

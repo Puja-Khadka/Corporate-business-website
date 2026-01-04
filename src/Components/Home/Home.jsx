@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import NavBar from '../NavBar/NavBar'
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import { useEffect } from 'react';
 
 function Home() {
+  const [services,setServices]=useState([])
+ useEffect(()=>{
+  fetch('https://mocki.io/v1/0d0586a1-0568-4125-8438-fd1c44e0474a')
+  .then((data)=>data.json())
+  .then((data)=>setServices(data.services))
+ })
     useEffect(() => {
     AOS.init({
       duration: 1000, 
@@ -77,6 +83,27 @@ function Home() {
           </div>
         </div>
       </section> 
+      <section>
+        <div className='container mx-auto'>
+        <span className='text-center ' data-aos="zoom-in">
+          <h3 className='text-blue-600 text-xl font-semibold'>Our Services</h3>
+          <h1 className='text-4xl font-bold'> Services build Specifically For<br/> Your Business</h1>
+        </span>
+
+        <div className='grid grid-cols-3 grid-rows-2 gap-6 mx-20 mt-10'>
+         {
+          services.map((item)=>(
+             <div key={item.id} className='shadow-lg shadow-gray-300  overflow-hidden text-center p-6' data-aos="zoom-in">
+              <img className=' w-30 h-30 mx-auto' src={item.image} alt={item.title} />
+              <p className='font-bold py-3 text-xl'>{item.title}</p>
+              <p className='text-gray-600 '>{item.description}</p>
+              <button className='my-3 rounded-full bg-blue-700 py-2 px-3'>{item.buttonText}</button>
+             </div>
+          ))
+         }
+        </div>
+        </div>
+      </section>
       </>
   )
 }

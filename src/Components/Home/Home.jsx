@@ -5,6 +5,8 @@ import AOS from "aos";
 import { useEffect } from "react";
 import { FaArrowRight } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
+import TeamSwiper from "../Swiper/TeamSwiper";
+
 
 function Home() {
   const [services, setServices] = useState([]);
@@ -421,6 +423,19 @@ function Home() {
            
         </div>
          </div>
+      </section>
+
+      <section className="my-30">
+        <div className="container mx-auto">
+        <div className="text-center">
+          <h3 className="text-blue-600 text-xl font-semibold">Our Team</h3>
+          <h1 className="font-bold text-4xl">Meet Our Expert Team</h1>
+        </div>
+          
+          <div className="mt-10">
+        <TeamSwiper/>
+        </div>
+        </div>
       </section>
     </>
   );

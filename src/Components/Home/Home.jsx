@@ -6,6 +6,7 @@ import { useEffect } from "react";
 import { FaArrowRight } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
 import TeamSwiper from "../Swiper/TeamSwiper";
+import GroupSwiper from "../Swiper/GroupSwiper";
 
 
 function Home() {
@@ -435,6 +436,17 @@ function Home() {
           <div className="mt-10">
         <TeamSwiper/>
         </div>
+        </div>
+      </section>
+
+      <section>
+        <div className="text-center ">
+          <h3 className="font-semibold text-xl text-blue-600">Our Testimonial</h3>
+          <h1 className="font-bold text-4xl">Our Client Saying</h1>
+        </div>
+
+        <div className="py-20">
+          <GroupSwiper/>
         </div>
       </section>
     </>

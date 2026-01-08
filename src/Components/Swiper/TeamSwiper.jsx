@@ -22,7 +22,8 @@ function TeamSwiper() {
 
       </div>
       <Swiper
-        modules={[Autoplay]}
+        modules={[Autoplay,Navigation]}
+        navigation
         spaceBetween={30}
         slidesPerView={3}
         autoplay={{ delay: 5000 }}

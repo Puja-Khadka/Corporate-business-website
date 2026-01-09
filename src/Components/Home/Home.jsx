@@ -440,13 +440,15 @@ function Home() {
       </section>
 
       <section>
+        <div className="container mx-auto">
         <div className="text-center ">
           <h3 className="font-semibold text-xl text-blue-600">Our Testimonial</h3>
           <h1 className="font-bold text-4xl">Our Client Saying</h1>
         </div>
 
-        <div className="py-20">
+        <div className="py-20 px-20">
           <GroupSwiper/>
+        </div>
         </div>
       </section>
     </>

@@ -53,8 +53,8 @@ function GroupSwiper() {
 
         <style jsx>
             {`  .custom-pagination .swiper-pagination-bullet {
-          width: 12px;
-          height: 12px;
+          width: 13px;
+          height: 13px;
           background-color: #3b82f6; 
           opacity: 0.5;
           border-radius: 9999px;
@@ -62,7 +62,7 @@ function GroupSwiper() {
         }
         .custom-pagination .swiper-pagination-bullet-active {
           opacity: 1;
-          transform: scaleX(1.3);`}
+          transform: scaleX(1.5);`}
         </style>
     </>
   )

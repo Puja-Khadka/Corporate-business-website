@@ -56,30 +56,53 @@ function Services() {
           </div>
         </div>
       </section>
-      <div className="bg-blue-600 py-15">
-        <div className=" container mx-auto flex items-center justify-between gap-4 px-20">
-          <div className="flex items-center gap-3" data-aos="zoom-in">
-            <span className="text-4xl text-blue-300 font-bold">99</span>
-            <h1 className="text-xl text-white font-bold">
-              Success in getting happy customer{" "}
+      <div className="bg-blue-600 py-10 sm:py-15">
+        <div className="container mx-auto px-4 sm:px-10 lg:px-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div
+            className="flex items-center gap-3 justify-center sm:justify-start"
+            data-aos="zoom-in"
+          >
+            <span className="text-4xl sm:text-5xl text-blue-300 font-bold">
+              99
+            </span>
+            <h1 className="text-lg sm:text-xl text-white font-bold text-center sm:text-left">
+              Success in getting happy customer
             </h1>
           </div>
-          <div className="flex items-center gap-3" data-aos="zoom-in">
-            <span className="text-4xl text-blue-300 font-bold">99</span>
-            <h1 className="text-xl text-white font-bold">
-              Success in getting happy customer{" "}
+
+          <div
+            className="flex items-center gap-3 justify-center sm:justify-start"
+            data-aos="zoom-in"
+          >
+            <span className="text-4xl sm:text-5xl text-blue-300 font-bold">
+              99
+            </span>
+            <h1 className="text-lg sm:text-xl text-white font-bold text-center sm:text-left">
+              Success in getting happy customer
             </h1>
           </div>
-          <div className="flex items-center gap-3 font-bold" data-aos="zoom-in">
-            <span className="text-4xl text-blue-300 font-bold">99</span>
-            <h1 className="text-xl text-white">
-              Success in getting happy customer{" "}
+
+          <div
+            className="flex items-center gap-3 justify-center sm:justify-start"
+            data-aos="zoom-in"
+          >
+            <span className="text-4xl sm:text-5xl text-blue-300 font-bold">
+              99
+            </span>
+            <h1 className="text-lg sm:text-xl text-white font-bold text-center sm:text-left">
+              Success in getting happy customer
             </h1>
           </div>
-          <div className="flex items-center gap-3" data-aos="zoom-in">
-            <span className="text-4xl text-blue-300 font-bold">99</span>
-            <h1 className="text-xl text-white font-bold">
-              Success in getting happy customer{" "}
+
+          <div
+            className="flex items-center gap-3 justify-center sm:justify-start"
+            data-aos="zoom-in"
+          >
+            <span className="text-4xl sm:text-5xl text-blue-300 font-bold">
+              99
+            </span>
+            <h1 className="text-lg sm:text-xl text-white font-bold text-center sm:text-left">
+              Success in getting happy customer
             </h1>
           </div>
         </div>
@@ -91,14 +114,14 @@ function Services() {
             <h3 className="text-blue-600 text-xl font-semibold">
               Our Services
             </h3>
-            <h1 className="text-4xl font-bold">
+            <h1 className="text-2xl md:text-4xl font-bold">
               {" "}
               Services build Specifically For
               <br /> Your Business
             </h1>
           </span>
 
-          <div className="grid grid-cols-3 grid-rows-2 gap-6 mx-20 mt-10">
+          <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-2 gap-6 mx-10 md:mx-20 mt-10">
             {services.map((item) => (
               <div
                 key={item.id}

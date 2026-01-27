@@ -46,26 +46,26 @@ function About() {
         </div>
       </section>
        <div className="bg-blue-600 py-15">
-        <div className=" container mx-auto flex items-center justify-between gap-4 px-20">
-          <div className="flex items-center gap-3" data-aos="zoom-in">
+        <div className=" container mx-auto flex flex-col md:flex-row items-center justify-between gap-4  px-4 md:px-20">
+          <div className="flex items-center gap-6 md:gap-3" data-aos="zoom-in">
             <span className="text-4xl text-blue-300 font-bold">99</span>
             <h1 className="text-xl text-white font-bold">
               Success in getting happy customer{" "}
             </h1>
           </div>
-          <div className="flex items-center gap-3" data-aos="zoom-in">
+          <div className="flex items-center gap-6 md:gap-3" data-aos="zoom-in">
             <span className="text-4xl text-blue-300 font-bold">99</span>
             <h1 className="text-xl text-white font-bold">
               Success in getting happy customer{" "}
             </h1>
           </div>
-          <div className="flex items-center gap-3 font-bold" data-aos="zoom-in">
+          <div className="flex items-center gap-6 md:gap-3 font-bold" data-aos="zoom-in">
             <span className="text-4xl text-blue-300 font-bold">99</span>
             <h1 className="text-xl text-white">
               Success in getting happy customer{" "}
             </h1>
           </div>
-          <div className="flex items-center gap-3" data-aos="zoom-in">
+          <div className="flex items-center gap-6 md:gap-3" data-aos="zoom-in">
             <span className="text-4xl text-blue-300 font-bold">99</span>
             <h1 className="text-xl text-white font-bold">
               Success in getting happy customer{" "}
@@ -75,7 +75,7 @@ function About() {
       </div>
       
        <section className="my-30">
-        <div className=" container mx-auto grid grid-cols-2 gap-2 px-20 ">
+        <div className=" container mx-auto grid grid-cols-1 gap-20 md:grid-cols-2 md:gap-2 px-20 ">
           <div className="relative" data-aos="zoom-in">
             <img
               className="w-90   rounded-2xl shadow-lg"
@@ -83,14 +83,14 @@ function About() {
               alt=""
             />
             <img
-              className="w-90  rounded-2xl shadow-lg absolute top-30 left-30"
+              className="w-90  rounded-2xl shadow-lg absolute top-15 left-15 md:top-30 md:left-30"
               src="https://media.istockphoto.com/id/2103894533/photo/business-people-in-the-office.jpg?s=612x612&w=0&k=20&c=DrnqkuBHgk3_YicnJJwm45HopK626ZqWAmlgUpXaBRc="
               alt=""
             />
           </div>
           <div data-aos="zoom-in-up">
             <h2 className="text-blue-700 font-bold ">About Us</h2>
-            <h1 className="text-5xl font-bold">
+            <h1 className=" text-xl md:text-5xl font-bold">
               About HighTech Agency and Its Innovative IT solution
             </h1>
             <p className="py-4">

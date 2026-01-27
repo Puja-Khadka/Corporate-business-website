@@ -6,7 +6,7 @@ function Footer() {
    <>
    <footer className='bg-black py-4'>
          <div className=' container mx-auto '>
-             <div className='flex items-center gap-30  px-20 justify-center relative'>
+             <div className='flex flex-col md:flex-row items-center gap-10 md:gap-30 px-20 justify-center relative'>
                <div className='text-white '>
                 <h1 className='text-4xl font-bold'>High<span className='text-green-600'>Tech</span></h1>
                <p className='py-5 '>Lorem ipsum dolor sit amet<br/> consectetur adipisicing elit. Facere, dicta?</p>
